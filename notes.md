@@ -13,6 +13,9 @@ create project in fast api
 
 ▶️ Step 3: Run the server
     uvicorn app.main:app --reload
+    OR
+    fastapi dev app/main.py
+
 
     here uvicorn is server
          app.main is module name
@@ -25,6 +28,9 @@ Visit: http://127.0.0.1:8000/health (your health endpoint)
 Visit: http://127.0.0.1:8000/docs (automatic interactive API docs)
 Visit: http://127.0.0.1:8000/redoc (alternative API documentation)
 
+# db connection using sqlLite
+
+pip install sqlmodel
 
 
 
